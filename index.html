@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sample Tuition — Home Tuition Services</title>
+  <meta name="description" content="Trusted home tuition for all ages — subject tutors, personalized lessons, flexible scheduling." />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Sample Tuition</h1>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#tutors">Tutors</a>
+        <a href="#how">How it works</a>
+        <a href="#contact" class="cta">Get Started</a>
+      </nav>
+      <button class="mobile-toggle" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <h2>Personalized home tuition that helps learners thrive</h2>
+          <p>One-on-one lessons, experienced tutors, flexible timings. For school, college or competitive exams.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn primary">Book a free trial</a>
+            <a href="#tutors" class="btn outline">Meet tutors</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <ul>
+            <li><strong>Subjects:</strong> Maths, Science, English, Coding</li>
+            <li><strong>Age:</strong> 6 – 22 years</li>
+            <li><strong>Mode:</strong> Home / Online</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="container services">
+      <h3>Our Services</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>School Tuition</h4>
+          <p>Curriculum-aligned lessons, homework help and exam prep.</p>
+        </div>
+        <div class="card">
+          <h4>Competitive Exams</h4>
+          <p>Targeted coaching for entrance and scholarship exams.</p>
+        </div>
+        <div class="card">
+          <h4>Skill Classes</h4>
+          <p>Coding, communication and study-skill modules.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tutors" class="container tutors">
+      <h3>Featured Tutors</h3>
+      <div class="tutor-grid">
+        <article class="tutor">
+          <div class="avatar">AV</div>
+          <h4>Priya Sharma</h4>
+          <p>10+ yrs experience • Maths & Physics</p>
+          <a class="btn small" href="#contact">Request</a>
+        </article>
+        <article class="tutor">
+          <div class="avatar">RK</div>
+          <h4>Rahul Kumar</h4>
+          <p>8+ yrs experience • Science & Coding</p>
+          <a class="btn small" href="#contact">Request</a>
+        </article>
+        <article class="tutor">
+          <div class="avatar">SN</div>
+          <h4>Seema N.</h4>
+          <p>7+ yrs experience • English & Test prep</p>
+          <a class="btn small" href="#contact">Request</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="how container">
+      <h3>How it works</h3>
+      <ol>
+        <li>Tell us the subject, level and preferred timing.</li>
+        <li>Choose a tutor from our short-listed matches.</li>
+        <li>Start a trial lesson and continue with a personalized plan.</li>
+      </ol>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h3>Get in touch</h3>
+      <form id="contactForm" class="form">
+        <div class="row">
+          <input name="name" placeholder="Full name" required />
+          <input name="email" type="email" placeholder="Email" required />
+        </div>
+        <div class="row">
+          <input name="phone" placeholder="Phone (optional)" />
+          <select name="subject" required>
+            <option value="">Subject of interest</option>
+            <option>Maths</option>
+            <option>Science</option>
+            <option>English</option>
+            <option>Coding</option>
+          </select>
+        </div>
+        <textarea name="message" placeholder="Tell us a bit about the student and goals" rows="4"></textarea>
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Send request</button>
+          <button type="button" id="demoBtn" class="btn outline">See demo tutor profile</button>
+        </div>
+        <p id="formStatus" class="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Sample Tuition • Built with care</p>
+      <p><small>To host: enable GitHub Pages (branch: main / root) or serve this folder from any static host.</small></p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
